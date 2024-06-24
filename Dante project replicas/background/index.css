@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.container{
+    background-color: whitesmoke;
+    border:2px solid grey;
+    box-shadow: 0 15px black;
+    border-radius: 10px;
+    
+}
+.container p{
+    font-size: 50px;
+    font-weight: bold;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    
+    
+
+}
+#press{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: black;
+    width: 100px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
